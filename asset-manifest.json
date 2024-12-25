@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bmkhomeedu.com/static/css/main.9d38a93c.css",
+    "main.js": "/bmkhomeedu.com/static/js/main.06a8a00f.js",
+    "static/media/bg5.jpg": "/bmkhomeedu.com/static/media/bg5.d255505ad7e87684bb54.jpg",
+    "static/media/Panchshila.jpg": "/bmkhomeedu.com/static/media/Panchshila.95dea3b39f25427d5480.jpg",
+    "static/media/Certificate.png": "/bmkhomeedu.com/static/media/Certificate.96e5d17cd7ddc7de6497.png",
+    "static/media/Rani.jpg": "/bmkhomeedu.com/static/media/Rani.36a525e738c78d309299.jpg",
+    "static/media/Bhagyshree.jpg": "/bmkhomeedu.com/static/media/Bhagyshree.98038ce3534205e5d61a.jpg",
+    "static/media/shivshankar_image 2.jpg": "/bmkhomeedu.com/static/media/shivshankar_image 2.79c93e0ecf8d591bf740.jpg",
+    "static/media/BMK logo.jpg": "/bmkhomeedu.com/static/media/BMK logo.22a6ef0416c1dc2e4fda.jpg",
+    "static/media/Mamta.jpg": "/bmkhomeedu.com/static/media/Mamta.05086b54f6e2dee899e8.jpg",
+    "static/media/Sudharani.jpg": "/bmkhomeedu.com/static/media/Sudharani.68da5d6b751c8f8e86cc.jpg",
+    "static/media/Swati.jpg": "/bmkhomeedu.com/static/media/Swati.fe8bd8cebdee08e0d1e2.jpg",
+    "static/media/Surekha.jpg": "/bmkhomeedu.com/static/media/Surekha.318fbfc4b58376101f01.jpg",
+    "static/media/Sweta.jpg": "/bmkhomeedu.com/static/media/Sweta.8d51784e7c57fbd8ed25.jpg",
+    "static/media/Ashwini.jpg": "/bmkhomeedu.com/static/media/Ashwini.c581cf9e3a0ab060d7f3.jpg",
+    "index.html": "/bmkhomeedu.com/index.html",
+    "main.9d38a93c.css.map": "/bmkhomeedu.com/static/css/main.9d38a93c.css.map",
+    "main.06a8a00f.js.map": "/bmkhomeedu.com/static/js/main.06a8a00f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d38a93c.css",
+    "static/js/main.06a8a00f.js"
+  ]
+}
