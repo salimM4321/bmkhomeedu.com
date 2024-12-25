@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* color: #000; */
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to bottom, rgb(174, 188, 248), rgb(248, 188, 188)); */
+}
+.hm-btn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title {
+    color: orange;
+    font-size: 32px;
+    font-weight: bold;
+    /* color: transparent; */
+    text-align: center;
+    position: relative;
+    animation: typing 4s steps(70) forwards infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: .10em solid orange;  */
+   
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor:none;
+  }
+  .TitleClass{
+    background-color: #000000;
+    animation: glow 1.5s linear infinite alternate;
+    width: 75%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 2.1rem;
+   
+
+
+  }
+
+  @keyframes neon {
+    0% {
+      text-shadow: 0 0 px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 20px #ff7f50, 0 0 30px #ff7f50, 0 0 40px #ff7f50, 0 0 55px #ff7f50;
+    }
+    100% {
+      text-shadow: 0 0 0px #fff, 0 0 00px #fff, 0 0 0px #fff, 0 0 40px #ff7f50, 0 0 50px #ff7f50, 0 0 60px #ff7f50, 0 0 70px #ff7f50;
+    }
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow:   0 0 0px #ff7f50, 0 0 0px #ff7f50, 0 0 0px #ff7f50, 0 0 6px #ff7f50, 0 0 7px #ff7f50;
+    }
+    100% {
+      box-shadow:   0 0 5px #ff7f50, 0 0 5px #ff7f50, 0 0 6px #ff7f50, 0 0 7px #ff7f50, 0 0 8px #ff7f50;
+    }
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 60%; }
+  }
+
+
+.Homesrc{
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    border-radius: 30%;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 1rem 2rem;
+  
+}
+
+
+
+.Income p{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    width: 70vw;
+}
+#HomeVContainer{
+    margin: 0rem auto;
+    width: 700px; 
+    height: 400px; 
+    display: flex;
+}
+.HomeBContainer{
+    background-color: initial;
+    margin: auto;
+    width: 39rem;
+    height: 6.3rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(138, 8, 123),rgb(121, 121, 241));
+    
+}
+.Masterclass{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.Opportunity{
+    color: #000 !important;
+}
+.frscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -2rem;
+}
+.RiskOfB{
+    display: flex;
+
+
+}
+.rs1{
+    font-size: 2rem !important;
+   margin-top: 2rem !important;
+}
+.Risk{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.BusnessExamples{
+    display: flex;
+    gap: 1.5rem;
+}
+.Imgsrc1{
+    width: 25rem;
+    height: 15rem;
+}
+.Opportunity{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+.ActionNow{
+    background-color: palevioletred;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+.Homebtn {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    margin: 3rem 0rem;
+    border: 2px solid gray;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+.Homebtn:hover{
+    background-image: linear-gradient(to left, rgb(138, 8, 123),rgb(121, 121, 241));
+    transform: scale(1.05); 
+
+}
+
+/* Additional styling */
+.LearnMasterClass h1 {
+    font-size: 28px;
+    color: #000000;
+    font-weight: bolder;
+}
+.Details{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  
+}
+.one{
+    border: 1px solid grey;
+    width: 14rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 21px;
+    color: #000;
+
+}
+.dtl2{
+    margin-top: 1rem;
+}
+.HandsImg{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+     /* height: 100%; */
+     width: 50% !important; 
+     height: 15rem;
+     border-radius: 15px;
+
+}
+.circle{
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1rem 30px;
+    color: #000;
+    font-size: 1.5rem;
+}
+.AvailableBatches{
+    margin-top: 2rem;
+
+}
+.FirstClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+   
+}
+.FSC2{
+    margin-top: 4rem;
+}
+.data{
+    margin-top: 2rem;
+    color: yellowgreen;
+    text-align: center;
+}
+.InternshipHigh h2{
+    margin-top: 2rem;
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+
+}
+.SubInternship{
+    display: flex;
+    gap: 4rem !important;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.Feature1{
+    font-size: 1.5rem;
+    color: #000;
+}
+.Feature1{
+    margin: 3rem 0rem;
+    height: auto;
+    
+    width: 100%;
+    background-color: rgba(96, 123, 199, 0.799); 
+    padding: 2rem ;
+    border-radius: 20px;
+    border: 2px solid rgb(243, 70, 122);
+}
+.Feature1:hover{
+    margin: 3rem 0rem;
+    height: auto;
+    
+    width: 100%;
+    background-color: rgb(187, 233, 126);
+    padding: 2rem ;
+    border-radius: 20px;
+    border: 2px solid rgb(162, 129, 238);
+}
+.ft{
+    font-size: 2rem;
+    color: black;
+}

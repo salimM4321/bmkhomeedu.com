@@ -1,0 +1,91 @@
+.staff-list {
+    max-width: 800px; /* Limit the width for better alignment */
+    margin: 0 auto; /* Center the list */
+    padding: 20px; /* Add some padding */
+  }
+  
+  .staff-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .staff-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .staff-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+ 
+  }
+  
+  .staff-image img {
+    width: 150px; /* Adjust width */
+    height: 150px; /* Adjust height */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image covers the container without distortion */
+    margin-right: 20px;
+    border: 3px solid #4CAF50; /* Border color */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    
+    
+  }
+  
+  .staff-info {
+    flex: 1;
+  }
+  
+  .staff-name {
+    margin: 0;
+    font-size: 1.8em; /* Larger font size for names */
+    color: #333;
+    font-weight: bold; /* Bold text for names */
+  }
+  
+  .staff-position {
+    margin: 5px 0;
+    font-size: 1.2em; /* Adjust font size */
+    color: #4CAF50; /* Color for position */
+  }
+  
+  .staff-details {
+    margin-top: 10px; /* Space above details */
+  }
+  
+  .staff-info p {
+    margin: 4px 0; /* Slightly reduced margin for details */
+    font-size: 0.9em; /* Adjust font size as needed */
+    color: #555; /* Change color to fit your design */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .staff-container {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center align items */
+      text-align: center; /* Center text */
+    }
+  
+    .staff-image {
+      margin-bottom: 15px; /* Space below the image */
+    }
+  
+    .staff-image img {
+      margin-right: 0; /* Remove right margin on smaller screens */
+    }
+  
+    .staff-name {
+      font-size: 1.5em; /* Adjust font size on smaller screens */
+    }
+  
+    .staff-position {
+      font-size: 1.1em; /* Adjust position font size on smaller screens */
+    }
+  }
+  
